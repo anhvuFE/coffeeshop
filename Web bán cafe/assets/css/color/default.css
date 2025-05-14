@@ -1,0 +1,243 @@
+/* Background Color */
+.style-v2 .header-inner{
+	background-color: #fffaf4;
+}
+.widget-gallery li figure a:after,
+.footer-info button,
+.gallery-v1 .gallery-inner,
+body:before,
+.style-v2 .navbar-toggle .icon-bar,
+.galleries .gallery-item figure .gallery-icon a,
+.entry-meta:after,
+.style-v3 .header-inner,
+.page-header .post-thumbnail:after,
+#banner:after{
+	background-color: #000; 
+}
+.footer-info .social li a,
+.menus .menu-title,
+.navbar-toggle .icon-bar,
+.filter-stuck,
+.nivo-controlNav a,
+#services-item li:after,
+#services-item li:before{
+	background-color: #FFF;
+}
+.info-recipe,
+#footer,
+.ourMission{
+	background-color: #efe6da;
+}
+.footer-info button:before,
+.footer-info .social li a.hvr-rectangle-out:before,
+.hvr-rectangle-out:before,
+.hvr-rectangle-out:before,
+.gallery-meta .sharethis .sharethis-icon,
+.navbar-toggle:focus .icon-bar{
+	background-color: #e27900;
+}
+.navbar-nav > li .mega-menu-inner,
+.navbar-nav > li .dropdown{
+	background-color: #ebebeb;
+}
+.line-title:before,
+.line-title:after{
+	background-color: #CCC;
+}
+/* Text Color */
+body,
+.sidebar .widget,
+.sidebar .widget a{
+	color: #5c5c68;
+}
+.navbar-nav > li .mega-menu-inner a,
+.navbar-nav > li .mega-menu-inner,
+.navbar-nav > li .dropdown a{
+	color: #1e1e1e;
+}
+#comments .comment-date,
+.comment-form input,
+.comment-form textarea,
+.contact-form input,
+.contact-form textarea,
+.style-v2 .header-right{
+	color: #999;
+}
+.comment-form button,
+.contact-form button{
+	color: #363636;
+}
+#comments .comment-content{
+	color: #838383;
+}
+.header,
+.footer-info button,
+.footer-info .social li a:hover,
+.nivo-caption .title,
+.gallery-v1 h3.title,
+.gallery-meta .sharethis .sharethis-icon,
+.galleries-v1 .gallery-v1 .close:hover,
+#services-item li aside,
+.page-header .title,
+.galleries .gallery-item figure .gallery-icon a{
+	color: #FFF;
+}
+.header-left,
+.header-right,
+article.post .entry-left .social a{
+	color: #DDD;
+}
+.title,
+.title a,
+.footer-info .social li a,
+.galleries .filter .button,
+.menus .filter .button,
+.modal-header .close:hover,
+.entry-meta a,
+h3.widgettitle,
+.sidebar .recent-comment-author,
+.style-v2 .header-inner{
+	color: #000;
+}
+.featured-color-text,
+a,
+.header a:hover,
+.title a:hover,
+.footer-info a:hover,
+.galleries .filter .button.active,
+.galleries .filter .button:hover,
+.menus .filter .button.active,
+.menus .filter .button:hover,
+.modal-header .close,
+.entry-meta a:hover,
+body:after,
+.gallery-meta label,
+.flickity-prev-next-button:hover,
+.flickity-prev-next-button:focus,
+article.post .entry-left .social a:hover,
+.sidebar .widget a:hover,
+.nav li.active > a,
+.navbar-nav > li .mega-menu-inner a:hover,
+.navbar-nav > li .dropdown a:hover,
+.galleries-v1 .gallery-v1 .close{
+	color: #e27900;
+}
+.flickity-prev-next-button:hover .arrow,
+.flickity-prev-next-button:focus .arrow{
+	fill: #e27900;
+}
+.entry-meta{
+	color: #828282;
+}
+.copyright{
+	color: #4f4f4f;
+}
+
+/* Border Color */
+.latest .posts_list li,
+.gallery-v2 .gallery-meta,
+.filter-stuck,
+.style-v2 #wrap .header-stuck{
+	border-color: #EEE;
+}
+.gallery-meta .gallery-date,
+.menus .menu-title:after{
+	border-color: #151515;
+}
+.navigation{
+	border-color: #e4e4e4;
+}
+.page-post article.post .entry-date small,
+.page-blog-sidebar article.post .entry-date small,
+#comments h3.title,
+.sidebar .recent-post li,
+.sidebar .recent-comment li,
+.sidebar .tagcloud a{
+	border-color: #bdbdbd;
+}
+#footer .widget > .title,
+.copyright,
+.footer-info input,
+.footer-info select,
+.footer-info textarea{
+	border-color: #dad1c2;
+}
+input:focus,
+.comment-form input:focus,
+.comment-form textarea:focus,
+.contact-form input:focus,
+.contact-form textarea:focus,
+blockquote{
+	border-color: #e27900;
+}
+.galleries .filter .button,
+.menus .filter .button,
+.style-v3 #wrap .header-stuck{
+	border-color: #000;
+}
+.galleries .filter .button.active,
+.galleries .filter .button:hover,
+.menus .filter .button.active,
+.menus .filter .button:hover{
+	border-color: #e27900;
+}
+.comment-form input,
+.comment-form textarea,
+.contact-form input,
+.contact-form textarea,
+#map-canvas{
+	border-color: #ccc;
+}
+.comment-form button,
+.contact-form button{
+	border-color: #252525;
+}
+
+body,
+.menus .menu-price{
+	
+}
+h1,h2,h3,h4,h5,h6{
+	
+}
+.header-left,
+.header-right{
+	
+}
+#primary-navigation{
+	
+}
+
+
+/* Animation */
+.bullets {
+	-webkit-animation-name: bullets;
+	animation-name: bullets;
+	-webkit-animation-duration: 1.5s;
+  	animation-duration: 1.5s;
+}
+@-webkit-keyframes bullets {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 0.6;
+  }
+
+  100% {
+    -webkit-transform: scale(2);
+    transform: scale(2);
+    opacity: 0;
+  }
+}
+
+@keyframes bullets {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 0.6;
+  }
+
+  100% {
+    -webkit-transform: scale(2);
+    transform: scale(2);
+    opacity: 0
